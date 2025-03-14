@@ -1,0 +1,24 @@
+{
+  "properties": [
+    {
+      "name": "database.cleanup.threshold",
+      "type": "java.lang.Double",
+      "description": "데이터베이스 정리(clean up) 임계값."
+    },
+    {
+      "name": "database.max-size-bytes",
+      "type": "java.lang.Long",
+      "description": "데이터 베이스 최대 크기."
+    },
+    {
+      "name": "kma.api.forecast.grid.ultra-short-term.base-url",
+      "type": "java.lang.String",
+      "description": "동네예보(초단기예보) 격자자료 API URL."
+    },
+    {
+      "name": "kma.api.auth-key",
+      "type": "java.lang.String",
+      "description": "기상청 API 인증키."
+    }
+  ]
+}

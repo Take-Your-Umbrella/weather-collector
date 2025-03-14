@@ -1,0 +1,11 @@
+[versions]
+kotlin = "2.0.21"
+spring-boot = "3.4.3"
+sping-dependency-management = "1.1.7"
+
+[libraries]
+kotlin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin" }
+kotlin-spring = { module = "org.jetbrains.kotlin.plugin.spring:org.jetbrains.kotlin.plugin.spring.gradle.plugin", version.ref = "kotlin" }
+kotlin-serialization = { module = "org.jetbrains.kotlin.plugin.serialization:org.jetbrains.kotlin.plugin.serialization.gradle.plugin", version.ref = "kotlin" }
+spring-boot = { module = "org.springframework.boot:org.springframework.boot.gradle.plugin", version.ref = "spring-boot" }
+spring-dependency-management = { module = "io.spring.dependency-management:io.spring.dependency-management.gradle.plugin", version.ref = "sping-dependency-management" }
